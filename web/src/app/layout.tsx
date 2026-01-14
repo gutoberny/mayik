@@ -30,6 +30,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "MAYIK | Arquitetura Transcedental",
   description: "Arquitetura além do físico. Projetos com alma, propósito e essência.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({
