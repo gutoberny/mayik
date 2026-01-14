@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  mayik-web:
+    container_name: mayik-website
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      # Map the large video file from the host if needed, or rely on it being inside the image build manually if copied before build
+      # Since we ignored it in git, on the server we might need to copy it to the build context or map it.
+      # Mapping is safer for large updates.
+      - ./web/public/hero-video.mp4:/app/public/hero-video.mp4
