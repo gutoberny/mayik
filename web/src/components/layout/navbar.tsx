@@ -38,13 +38,13 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <Link href="/" className="relative z-50 flex items-center gap-2 group">
-             {/* Logo Placeholder - User provided LOGO.jpg manually, assuming public/logo.jpg */}
-             <div className="relative w-10 h-10 overflow-hidden rounded-full border border-white/10 group-hover:border-primary/50 transition-colors">
+             {/* Logo - Transparent PNG */}
+             <div className="relative w-12 h-12 md:w-16 md:h-16 transition-transform hover:scale-105">
                 <Image 
-                    src="/logo.jpg" 
+                    src="/logo.png" 
                     alt="Mayik Logo" 
                     fill 
-                    className="object-cover"
+                    className="object-contain"
                 />
             </div>
           <span className={cn(
