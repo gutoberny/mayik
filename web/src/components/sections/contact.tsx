@@ -17,7 +17,7 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="min-h-screen relative flex flex-col justify-center py-20 overflow-hidden">
+    <section id="contact" className="min-h-screen relative flex flex-col justify-center pt-20 pb-40 md:py-20 overflow-hidden">
       {/* Background Ambience */}
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent z-0" />
       <div className="absolute bottom-0 left-0 w-full h-[600px] bg-primary/5 blur-[100px] z-0" />
