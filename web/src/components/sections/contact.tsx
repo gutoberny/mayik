@@ -119,7 +119,7 @@ export function Contact() {
       {/* Footer */}
       <footer className="absolute bottom-0 left-0 w-full py-6 border-t border-border/40">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground uppercase tracking-widest">
-            <span>© {new Date().getFullYear()} MAYIK Arquitetura</span>
+            <span>© {new Date().getFullYear()} MAYIK Arquitetura Transcendental</span>
             <div className="flex gap-6">
                 <a href="https://www.instagram.com/mayik.arquiteturatranscedental/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Instagram</a>
                 <a href="https://www.linkedin.com/in/mayara-isabel-kipper-aa51a6153/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
